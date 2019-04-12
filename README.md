@@ -1,7 +1,7 @@
 # Heck Animaitons
-CSS Animation library for quickly bringing your pages to life! 
+CSS Animation library for quickly bringing your pages to life!
 
-Taking inspiration from the [animate.css](https://github.com/daneden/animate.css) library.
+Taking inspiration from [Daniel Eden's Animate.css](https://github.com/daneden/animate.css) and [Zurb's Motion UI](https://github.com/zurb/motion-ui) libraries.
 
 
 ## Installation & Usage
@@ -23,7 +23,7 @@ download and include the `heck-animations.css` file into your project and link t
 
 ## Features
 <!--
-- lots of pre-coded animations 
+- lots of pre-coded animations
     - fades
     - bounces
     - color changes
@@ -33,6 +33,7 @@ download and include the `heck-animations.css` file into your project and link t
 - Support for "prefers-reduced-motion"
 - @Support
 - Animate on Javascript event
+- Synchronous animations
 - Responsive classes
 -->
 ## How to use
