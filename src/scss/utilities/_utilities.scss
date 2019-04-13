@@ -11,8 +11,8 @@
 
 // Duration
 @for $i from 1 through 20 {
-  .#{$namespace}duration-#{$i * 50} {
-    animation-duration: #{$i * 50}ms;
+  .#{$namespace}duration-#{$i * 100} {
+    animation-duration: #{$i * 100}ms;
   }
 }
 
@@ -24,9 +24,9 @@
 }
 
 // Delays
-@for $i from 0 through 10 {
-  .#{$namespace}delay-#{$i} {
-    animation-delay: #{$i}s;
+@for $i from 0 through 20 {
+  .#{$namespace}delay-#{$i * 100} {
+    animation-delay: #{$i * 100}ms;
   }
 }
 
