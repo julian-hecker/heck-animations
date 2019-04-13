@@ -1,0 +1,49 @@
+/* Utilities */
+
+// Animated
+.#{$namespace}animated {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+// Duration
+@for $i from 1 through 20 {
+  .#{$namespace}duration-#{$i * 50} {
+    animation-duration: #{$i * 50}ms;
+  }
+}
+
+// Timing Functions
+@each $timing-label, $timing-value in $timings {
+  .#{$namespace}timing-#{$timing-label} {
+    animation-timing-function: $timing-value;
+  }
+}
+
+// Delays
+@for $i from 0 through 10 {
+  .#{$namespace}delay-#{$i} {
+    animation-delay: #{$i}s;
+  }
+}
+
+// Iteration Count
+.#{$namespace}iteration-infinite {
+  animation-iteration-count: infinite;
+}
+
+@for $i from 1 through 10 {
+  .#{$namespace}iteration-#{$i} {
+    animation-iteration-count: $i;
+  }
+}
+
+// Animation Direction
+
+  // TODO: Test Animation Direction as a means of "out" vs "in"
+
+
+// Animation Play State
