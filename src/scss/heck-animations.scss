@@ -7,7 +7,14 @@
  * 
  */
 
+// Todo: categorize animations
+
 // Settings
-@import './settings/easing';
+@import './settings/timing';
+@import './settings/variable';
 
 // Animations
+// @import './animations/';
+
+// Utilities
+@import './utilities/utilities';
