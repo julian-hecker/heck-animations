@@ -1,7 +1,13 @@
 // TODO: Split into files
+/* Base */
+body {
+  overflow-x: hidden !important;
+}
+
 /* Utilities */
 // Animated
 .#{$namespace}animate {
+  width: max-content;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
