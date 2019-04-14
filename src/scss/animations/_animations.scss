@@ -1,0 +1,52 @@
+// TODO: Split into files
+/* Animations */
+/* Slide Animations */
+@keyframes slide-top {
+  from { opacity: 0; transform: translateY(-100%); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slide-bottom {
+  from { opacity: 0; transform: translateY(100%); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slide-left {
+  from { opacity: 0; transform: translateX(-100%); }
+  to { opacity: 1; transform: none; }
+}
+
+.#{$namespace}slide-top { animation-name: "slide-top"; }
+.#{$namespace}slide-right { animation-name: "slide-right"; }
+.#{$namespace}slide-bottom { animation-name: "slide-bottom"; }
+.#{$namespace}slide-left { animation-name: "slide-left"; }
+
+/* Fade Animations */
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.#{$namespace}fade { animation-name: "fade"; };
+
+/* Rotate Animations */
+
+/* Scale Animations */
+@keyframes zoom-front {
+  from { opacity: 0; transform: scale(5); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes zoom-back {
+  from { opacity: 0; transform: scale(0); }
+  to { opacity: 1; transform: none; }
+}
+
+.#{$namespace}zoom-front { animation-name: "zoom-front"; }
+.#{$namespace}zoom-back { animation-name: "zoom-back"; }
+
+/* Spin Animations */
