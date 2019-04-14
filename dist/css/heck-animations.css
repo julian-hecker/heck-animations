@@ -272,120 +272,120 @@ body {
 
 /* Timing Functions */
 .ha-timing-linear {
-  -webkit-animation-timing-function: "linear";
-          animation-timing-function: "linear"; }
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
 
 .ha-timing-ease {
-  -webkit-animation-timing-function: "ease";
-          animation-timing-function: "ease"; }
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease; }
 
 .ha-timing-ease-in {
-  -webkit-animation-timing-function: "ease-in";
-          animation-timing-function: "ease-in"; }
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in; }
 
 .ha-timing-ease-out {
-  -webkit-animation-timing-function: "ease-out";
-          animation-timing-function: "ease-out"; }
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out; }
 
 .ha-timing-ease-in-out {
-  -webkit-animation-timing-function: "ease-in-out";
-          animation-timing-function: "ease-in-out"; }
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out; }
 
 .ha-timing-sine-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.47, 0, 0.745, 0.715)";
-          animation-timing-function: "cubic-bezier(0.47, 0, 0.745, 0.715)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+          animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); }
 
 .ha-timing-sine-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.39, 0.575, 0.565, 1)";
-          animation-timing-function: "cubic-bezier(0.39, 0.575, 0.565, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+          animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .ha-timing-sine-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.445, 0.05, 0.55, 0.95)";
-          animation-timing-function: "cubic-bezier(0.445, 0.05, 0.55, 0.95)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+          animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); }
 
 .ha-timing-suad-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.55, 0.085, 0.68, 0.53)";
-          animation-timing-function: "cubic-bezier(0.55, 0.085, 0.68, 0.53)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+          animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
 
 .ha-timing-quad-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.25, 0.46, 0.45, 0.94)";
-          animation-timing-function: "cubic-bezier(0.25, 0.46, 0.45, 0.94)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 .ha-timing-quad-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.455, 0.03, 0.515, 0.955)";
-          animation-timing-function: "cubic-bezier(0.455, 0.03, 0.515, 0.955)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+          animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 
 .ha-timing-cubic-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.55, 0.055, 0.675, 0.19)";
-          animation-timing-function: "cubic-bezier(0.55, 0.055, 0.675, 0.19)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 
 .ha-timing-cubic-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.215, 0.61, 0.355, 1)";
-          animation-timing-function: "cubic-bezier(0.215, 0.61, 0.355, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 .ha-timing-cubic-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.645, 0.045, 0.355, 1)";
-          animation-timing-function: "cubic-bezier(0.645, 0.045, 0.355, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
 
 .ha-timing-quart-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.895, 0.03, 0.685, 0.22)";
-          animation-timing-function: "cubic-bezier(0.895, 0.03, 0.685, 0.22)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+          animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
 
 .ha-timing-quart-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.165, 0.84, 0.44, 1)";
-          animation-timing-function: "cubic-bezier(0.165, 0.84, 0.44, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+          animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
 
 .ha-timing-quart-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.77, 0, 0.175, 1)";
-          animation-timing-function: "cubic-bezier(0.77, 0, 0.175, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+          animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
 
 .ha-timing-quint-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.755, 0.05, 0.855, 0.06)";
-          animation-timing-function: "cubic-bezier(0.755, 0.05, 0.855, 0.06)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
 
 .ha-timing-quint-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.23, 1, 0.32, 1)";
-          animation-timing-function: "cubic-bezier(0.23, 1, 0.32, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+          animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
 
 .ha-timing-quint-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.86, 0, 0.07, 1)";
-          animation-timing-function: "cubic-bezier(0.86, 0, 0.07, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+          animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1); }
 
 .ha-timing-expo-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.95, 0.05, 0.795, 0.035)";
-          animation-timing-function: "cubic-bezier(0.95, 0.05, 0.795, 0.035)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+          animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
 
 .ha-timing-expo-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.19, 1, 0.22, 1)";
-          animation-timing-function: "cubic-bezier(0.19, 1, 0.22, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+          animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
 
 .ha-timing-expo-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(1, 0, 0, 1)";
-          animation-timing-function: "cubic-bezier(1, 0, 0, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+          animation-timing-function: cubic-bezier(1, 0, 0, 1); }
 
 .ha-timing-circ-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.6, 0.04, 0.98, 0.335)";
-          animation-timing-function: "cubic-bezier(0.6, 0.04, 0.98, 0.335)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+          animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
 
 .ha-timing-circ-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.075, 0.82, 0.165, 1)";
-          animation-timing-function: "cubic-bezier(0.075, 0.82, 0.165, 1)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
 .ha-timing-circ-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.785, 0.135, 0.15, 0.86)";
-          animation-timing-function: "cubic-bezier(0.785, 0.135, 0.15, 0.86)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
 .ha-timing-back-in {
-  -webkit-animation-timing-function: "cubic-bezier(0.6, -0.28, 0.735, 0.045)";
-          animation-timing-function: "cubic-bezier(0.6, -0.28, 0.735, 0.045)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+          animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
 
 .ha-timing-back-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.175, 0.885, 0.32, 1.275)";
-          animation-timing-function: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 .ha-timing-back-in-out {
-  -webkit-animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)";
-          animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)"; }
+  -webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+          animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 /* Delays */
 .ha-delay-0 {
