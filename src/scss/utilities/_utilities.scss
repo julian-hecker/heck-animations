@@ -1,5 +1,5 @@
+// TODO: Split into files
 /* Utilities */
-
 // Animated
 .#{$namespace}animated {
   animation-duration: 1s;
@@ -9,28 +9,28 @@
   animation-fill-mode: both;
 }
 
-// Duration
+/* Duration */
 @for $i from 1 through 20 {
   .#{$namespace}duration-#{$i * 100} {
     animation-duration: #{$i * 100}ms;
   }
 }
 
-// Timing Functions
+/* Timing Functions */
 @each $timing-label, $timing-value in $timings {
   .#{$namespace}timing-#{$timing-label} {
     animation-timing-function: $timing-value;
   }
 }
 
-// Delays
+/* Delays */
 @for $i from 0 through 20 {
   .#{$namespace}delay-#{$i * 100} {
     animation-delay: #{$i * 100}ms;
   }
 }
 
-// Iteration Count
+/* Iteration Count */
 .#{$namespace}iteration-infinite {
   animation-iteration-count: infinite;
 }
@@ -41,9 +41,13 @@
   }
 }
 
-// Animation Direction
+/* Animation Direction */
+.#{$namespace}direction-out,
+.#{$namespace}out {
+  animation-direction: alternate-reverse;
+}
 
-  // TODO: Test Animation Direction as a means of "out" vs "in"
-
-
-// Animation Play State
+.#{$namespace}direction-in,
+.#{$namespace}in {
+  animation-direction: alternate;
+}

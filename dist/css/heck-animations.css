@@ -19,6 +19,7 @@
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
+/* Duration */
 .ha-duration-100 {
   -webkit-animation-duration: 100ms;
           animation-duration: 100ms; }
@@ -99,6 +100,7 @@
   -webkit-animation-duration: 2000ms;
           animation-duration: 2000ms; }
 
+/* Timing Functions */
 .ha-timing-linear {
   -webkit-animation-timing-function: "linear";
           animation-timing-function: "linear"; }
@@ -215,6 +217,7 @@
   -webkit-animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)";
           animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)"; }
 
+/* Delays */
 .ha-delay-0 {
   -webkit-animation-delay: 0ms;
           animation-delay: 0ms; }
@@ -299,6 +302,7 @@
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms; }
 
+/* Iteration Count */
 .ha-iteration-infinite {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; }
@@ -342,3 +346,13 @@
 .ha-iteration-10 {
   -webkit-animation-iteration-count: 10;
           animation-iteration-count: 10; }
+
+/* Animation Direction */
+.ha-direction-out,
+.ha-out {
+  animation-direction: alternate-reverse; }
+
+.ha-direction-in,
+.ha-in {
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate; }
