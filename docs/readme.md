@@ -1,5 +1,5 @@
 # Heck Animations -- Documentation
-  [Back to Project Root](../readme.md)
+  [Back to Project Root](../README.md)
 ## Table of Contents
 - [Usage and Installation](./usage.md)
 - [Animations](./animations/readme.md)

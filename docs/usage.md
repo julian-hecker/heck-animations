@@ -1,5 +1,5 @@
 # Heck Animations -- Documentation
-  [Back to Documentation](./readme.md)
+  [Back to Index](./readme.md)
 
 ## Installation & Usage
 
