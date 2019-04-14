@@ -22,19 +22,17 @@ download and include the `heck-animations.css` file into your project and link t
 ```
 
 ## Features
-<!--
-- lots of pre-coded animations
-    - fades
-    - bounces
-    - color changes
-    - many more!
-- customizable namespacing to prevent interference with user CSS
-    - $namespace: must be done on each selector
-- Support for "prefers-reduced-motion"
-- @Support
+- Lots of pre-coded animations
+- Customizable Namespacing
+    - Prevents conflicts with other CSS.
+- Support for *Reduced Motion*
+    - Disables animations if user settings request it.
+- Responsive Animations
+    - Choose what viewport sizes your animations will display on!
+<!-- COMING SOON
+
 - Animate on Javascript event
 - Synchronous animations
-- Responsive classes
 -->
 ## How to use
 1. Include Heck Animations in your HTML document's `<head>` using a `<link>`.
@@ -44,6 +42,7 @@ download and include the `heck-animations.css` file into your project and link t
     - Optional: 
         - Delay class. Default value: 0s. 
         - Duration class. Default value: 1s.
+        - Timing Function class. Default value: ease-in-out.
         - Iteration class. Default value: 1.
         
 [See all class documentation](./docs/classes.md) <!-- Create docs/classes.md/ -->
