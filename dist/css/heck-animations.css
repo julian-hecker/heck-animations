@@ -6,8 +6,178 @@
  * https://github.com/julian-hecker/heck-animations 
  * 
  */
+/* Animations */
+/* Slide Animations */
+@-webkit-keyframes slide-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+@keyframes slide-top {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@-webkit-keyframes slide-right {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@-webkit-keyframes slide-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes slide-bottom {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@-webkit-keyframes slide-left {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+.ha-slide-top {
+  -webkit-animation-name: "slide-top";
+          animation-name: "slide-top"; }
+
+.ha-slide-right {
+  -webkit-animation-name: "slide-right";
+          animation-name: "slide-right"; }
+
+.ha-slide-bottom {
+  -webkit-animation-name: "slide-bottom";
+          animation-name: "slide-bottom"; }
+
+.ha-slide-left {
+  -webkit-animation-name: "slide-left";
+          animation-name: "slide-left"; }
+
+/* Fade Animations */
+@-webkit-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.ha-fade {
+  -webkit-animation-name: "fade";
+          animation-name: "fade"; }
+
+/* Rotate Animations */
+/* Scale Animations */
+@-webkit-keyframes zoom-front {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+@keyframes zoom-front {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(5);
+            transform: scale(5); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@-webkit-keyframes zoom-back {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+@keyframes zoom-back {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; } }
+
+.ha-zoom-front {
+  -webkit-animation-name: "zoom-front";
+          animation-name: "zoom-front"; }
+
+.ha-zoom-back {
+  -webkit-animation-name: "zoom-back";
+          animation-name: "zoom-back"; }
+
+/* Spin Animations */
+/* Base */
+body {
+  overflow-x: hidden !important; }
+
 /* Utilities */
 .ha-animate {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -109,111 +279,111 @@
   -webkit-animation-timing-function: "ease";
           animation-timing-function: "ease"; }
 
-.ha-timing-ease-in {
+.ha-timing-in {
   -webkit-animation-timing-function: "ease-in";
           animation-timing-function: "ease-in"; }
 
-.ha-timing-ease-out {
+.ha-timing-out {
   -webkit-animation-timing-function: "ease-out";
           animation-timing-function: "ease-out"; }
 
-.ha-timing-ease-in-out {
+.ha-timing-in-out {
   -webkit-animation-timing-function: "ease-in-out";
           animation-timing-function: "ease-in-out"; }
 
-.ha-timing-ease-in-sine {
+.ha-timing-in-sine {
   -webkit-animation-timing-function: "cubic-bezier(0.47, 0, 0.745, 0.715)";
           animation-timing-function: "cubic-bezier(0.47, 0, 0.745, 0.715)"; }
 
-.ha-timing-ease-out-sine {
+.ha-timing-out-sine {
   -webkit-animation-timing-function: "cubic-bezier(0.39, 0.575, 0.565, 1)";
           animation-timing-function: "cubic-bezier(0.39, 0.575, 0.565, 1)"; }
 
-.ha-timing-ease-in-out-sine {
+.ha-timing-in-out-sine {
   -webkit-animation-timing-function: "cubic-bezier(0.445, 0.05, 0.55, 0.95)";
           animation-timing-function: "cubic-bezier(0.445, 0.05, 0.55, 0.95)"; }
 
-.ha-timing-ease-in-quad {
+.ha-timing-in-quad {
   -webkit-animation-timing-function: "cubic-bezier(0.55, 0.085, 0.68, 0.53)";
           animation-timing-function: "cubic-bezier(0.55, 0.085, 0.68, 0.53)"; }
 
-.ha-timing-ease-out-quad {
+.ha-timing-out-quad {
   -webkit-animation-timing-function: "cubic-bezier(0.25, 0.46, 0.45, 0.94)";
           animation-timing-function: "cubic-bezier(0.25, 0.46, 0.45, 0.94)"; }
 
-.ha-timing-ease-in-out-quad {
+.ha-timing-in-out-quad {
   -webkit-animation-timing-function: "cubic-bezier(0.455, 0.03, 0.515, 0.955)";
           animation-timing-function: "cubic-bezier(0.455, 0.03, 0.515, 0.955)"; }
 
-.ha-timing-ease-in-cubic {
+.ha-timing-in-cubic {
   -webkit-animation-timing-function: "cubic-bezier(0.55, 0.055, 0.675, 0.19)";
           animation-timing-function: "cubic-bezier(0.55, 0.055, 0.675, 0.19)"; }
 
-.ha-timing-ease-out-cubic {
+.ha-timing-out-cubic {
   -webkit-animation-timing-function: "cubic-bezier(0.215, 0.61, 0.355, 1)";
           animation-timing-function: "cubic-bezier(0.215, 0.61, 0.355, 1)"; }
 
-.ha-timing-ease-in-out-cubic {
+.ha-timing-in-out-cubic {
   -webkit-animation-timing-function: "cubic-bezier(0.645, 0.045, 0.355, 1)";
           animation-timing-function: "cubic-bezier(0.645, 0.045, 0.355, 1)"; }
 
-.ha-timing-ease-in-quart {
+.ha-timing-in-quart {
   -webkit-animation-timing-function: "cubic-bezier(0.895, 0.03, 0.685, 0.22)";
           animation-timing-function: "cubic-bezier(0.895, 0.03, 0.685, 0.22)"; }
 
-.ha-timing-ease-out-quart {
+.ha-timing-out-quart {
   -webkit-animation-timing-function: "cubic-bezier(0.165, 0.84, 0.44, 1)";
           animation-timing-function: "cubic-bezier(0.165, 0.84, 0.44, 1)"; }
 
-.ha-timing-ease-in-out-quart {
+.ha-timing-in-out-quart {
   -webkit-animation-timing-function: "cubic-bezier(0.77, 0, 0.175, 1)";
           animation-timing-function: "cubic-bezier(0.77, 0, 0.175, 1)"; }
 
-.ha-timing-ease-in-quint {
+.ha-timing-in-quint {
   -webkit-animation-timing-function: "cubic-bezier(0.755, 0.05, 0.855, 0.06)";
           animation-timing-function: "cubic-bezier(0.755, 0.05, 0.855, 0.06)"; }
 
-.ha-timing-ease-out-quint {
+.ha-timing-out-quint {
   -webkit-animation-timing-function: "cubic-bezier(0.23, 1, 0.32, 1)";
           animation-timing-function: "cubic-bezier(0.23, 1, 0.32, 1)"; }
 
-.ha-timing-ease-in-out-quint {
+.ha-timing-in-out-quint {
   -webkit-animation-timing-function: "cubic-bezier(0.86, 0, 0.07, 1)";
           animation-timing-function: "cubic-bezier(0.86, 0, 0.07, 1)"; }
 
-.ha-timing-ease-in-expo {
+.ha-timing-in-expo {
   -webkit-animation-timing-function: "cubic-bezier(0.95, 0.05, 0.795, 0.035)";
           animation-timing-function: "cubic-bezier(0.95, 0.05, 0.795, 0.035)"; }
 
-.ha-timing-ease-out-expo {
+.ha-timing-out-expo {
   -webkit-animation-timing-function: "cubic-bezier(0.19, 1, 0.22, 1)";
           animation-timing-function: "cubic-bezier(0.19, 1, 0.22, 1)"; }
 
-.ha-timing-ease-in-out-expo {
+.ha-timing-in-out-expo {
   -webkit-animation-timing-function: "cubic-bezier(1, 0, 0, 1)";
           animation-timing-function: "cubic-bezier(1, 0, 0, 1)"; }
 
-.ha-timing-ease-in-circ {
+.ha-timing-in-circ {
   -webkit-animation-timing-function: "cubic-bezier(0.6, 0.04, 0.98, 0.335)";
           animation-timing-function: "cubic-bezier(0.6, 0.04, 0.98, 0.335)"; }
 
-.ha-timing-ease-out-circ {
+.ha-timing-out-circ {
   -webkit-animation-timing-function: "cubic-bezier(0.075, 0.82, 0.165, 1)";
           animation-timing-function: "cubic-bezier(0.075, 0.82, 0.165, 1)"; }
 
-.ha-timing-ease-in-out-circ {
+.ha-timing-in-out-circ {
   -webkit-animation-timing-function: "cubic-bezier(0.785, 0.135, 0.15, 0.86)";
           animation-timing-function: "cubic-bezier(0.785, 0.135, 0.15, 0.86)"; }
 
-.ha-timing-ease-in-back {
+.ha-timing-in-back {
   -webkit-animation-timing-function: "cubic-bezier(0.6, -0.28, 0.735, 0.045)";
           animation-timing-function: "cubic-bezier(0.6, -0.28, 0.735, 0.045)"; }
 
-.ha-timing-ease-out-back {
+.ha-timing-out-back {
   -webkit-animation-timing-function: "cubic-bezier(0.175, 0.885, 0.32, 1.275)";
           animation-timing-function: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"; }
 
-.ha-timing-ease-in-out-back {
+.ha-timing-in-out-back {
   -webkit-animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)";
           animation-timing-function: "cubic-bezier(0.68, -0.55, 0.265, 1.55)"; }
 
