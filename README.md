@@ -45,7 +45,7 @@ download and include the `heck-animations.css` file into your project and link t
         - Timing Function class. Default value: ease-in-out.
         - Iteration class. Default value: 1.
         
-[See all class documentation](./docs/classes.md) <!-- Create docs/classes.md/ -->
+[See all class documentation](./docs/classes/readme.md) <!-- Create docs/classes.md/ -->
 
 ## Accessibility
 Supports `prefers-reduced-motion` media query for motion-sensitive users; will disable moving animations, but allows opacity to still be animated.
@@ -54,4 +54,4 @@ Supports `prefers-reduced-motion` media query for motion-sensitive users; will d
 Normally, browsers that do not support animations will cause animated components to break. By using the `@supports` query, Heck Animations prevents pages from being broken on older browsers. If animations (or @supports) are not supported, then elements will display normally and not animate.
 
 ## License
-Heck Animations is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+Heck Animations is licensed under the [MIT license](http://opensource.org/licenses/MIT).
