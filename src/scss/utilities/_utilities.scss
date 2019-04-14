@@ -1,0 +1,98 @@
+// TODO: Split into files
+/* Base */
+body {
+  overflow-x: hidden !important;
+}
+
+/* Utilities */
+// Animated
+.#{$namespace}animate {
+  width: max-content;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+/* Duration */
+@for $i from 1 through 20 {
+  .#{$namespace}duration-#{$i * 100} {
+    animation-duration: #{$i * 100}ms;
+  }
+}
+
+/* Timing Functions */
+// Implement system that uses animation-direction value 
+// To determine using in or out timing function
+@each $timing-label, $timing-value in $timings {
+  .#{$namespace}timing-#{$timing-label} {
+    animation-timing-function: $timing-value;
+  }
+}
+
+/* Delays */
+@for $i from 0 through 20 {
+  .#{$namespace}delay-#{$i * 100} {
+    animation-delay: #{$i * 100}ms;
+  }
+}
+
+/* Iteration Count */
+.#{$namespace}iteration-infinite {
+  animation-iteration-count: infinite;
+}
+
+@for $i from 1 through 10 {
+  .#{$namespace}iteration-#{$i} {
+    animation-iteration-count: $i;
+  }
+}
+
+/* Animation Direction */
+.#{$namespace}direction-out,
+.#{$namespace}out {
+  animation-direction: alternate-reverse;
+}
+
+.#{$namespace}direction-in,
+.#{$namespace}in {
+  animation-direction: alternate;
+}
+
+/* Animations Off: Responsive */
+// Refactor complicated loops
+@for $i from 1 through length($breakpoints) {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (min-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-up {
+      animation: none !important;
+    }
+  }
+}
+
+@for $i from length($breakpoints) through 2 {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (max-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-down {
+      animation: none !important;
+    }
+  }
+}
+
+/* Support Query */
+@supports not (animation-fill-mode: both) {
+  .#{$namespace}animate {
+    animation: none !important;
+  }
+}
+
+/* Media Query for Reduced Motion and Print */
+@media (prefers-reduced-motion: reduce), (print) {
+  .#{$namespace}animate {
+    animation: none !important;
+  }
+}
+
