@@ -357,11 +357,59 @@
   -webkit-animation-direction: alternate;
           animation-direction: alternate; }
 
+/* Animations Off: Responsive */
+@media (min-width: 0px) {
+  .ha-off-xs-up {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (min-width: 600px) {
+  .ha-off-sm-up {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (min-width: 900px) {
+  .ha-off-md-up {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (min-width: 1200px) {
+  .ha-off-lg-up {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (min-width: 1600px) {
+  .ha-off-xl-up {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (max-width: 1600px) {
+  .ha-off-xl-down {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (max-width: 1200px) {
+  .ha-off-lg-down {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (max-width: 900px) {
+  .ha-off-md-down {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (max-width: 600px) {
+  .ha-off-sm-down {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+/* Support Query */
 @supports not ((-webkit-animation-fill-mode: both) or (animation-fill-mode: both)) {
   .ha-animate {
     -webkit-animation: none !important;
             animation: none !important; } }
 
+/* Media Query for Reduced Motion and Print */
 @media (prefers-reduced-motion: reduce), (print) {
   .ha-animate {
     -webkit-animation: none !important;

@@ -52,15 +52,70 @@
   animation-direction: alternate;
 }
 
+/* Animations Off: Responsive */
+// Refactor complicated loops
+@for $i from 1 through length($breakpoints) {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (min-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-up {
+      animation: none !important;
+    }
+  }
+}
 
+@for $i from length($breakpoints) through 2 {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (max-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-down {
+      animation: none !important;
+    }
+  }
+}
+
+
+// @for $i from 1 through length($breakpoints) {
+//   $bkpt-label: nth(nth($breakpoints, $i), 1);
+//   $bkpt-value: nth(nth($breakpoints, $i), 2);
+//   $bkpt-next-value: nth(nth($breakpoints, $i), 2);
+//   @if $i < length($breakpoints) {
+//     $bkpt-next-value: nth(nth($breakpoints, $i + 1), 2) - .1px;
+//   }
+//   @if $i == 1 {
+//     @media (max-width: $bkpt-next-value) {
+//       .#{$namespace}display-none#{$bkpt-label},
+//       .#{$namespace}dsp-none#{$bkpt-label} {
+//         display: none;
+//       }
+//     }
+//   } @else if $i == length($breakpoints) {
+//     @media (min-width: $bkpt-value) {
+//       .#{$namespace}display-none#{$bkpt-label},
+//       .#{$namespace}dsp-none#{$bkpt-label} {
+//         display: none;
+//       }
+//     }
+//   } @else {
+//     @media (min-width: $bkpt-value) and (max-width: $bkpt-next-value) {
+//       .#{$namespace}display-none#{$bkpt-label},
+//       .#{$namespace}dsp-none#{$bkpt-label} {
+//         display: none;
+//       }
+//     }
+//   }
+// }
+
+/* Support Query */
 @supports not (animation-fill-mode: both) {
   .#{$namespace}animate {
     animation: none !important;
   }
 }
 
+/* Media Query for Reduced Motion and Print */
 @media (prefers-reduced-motion: reduce), (print) {
-  .ha-animate {
+  .#{$namespace}animate {
     animation: none !important;
   }
 }
