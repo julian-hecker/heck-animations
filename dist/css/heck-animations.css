@@ -7,7 +7,7 @@
  * 
  */
 /* Utilities */
-.ha-animated {
+.ha-animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -356,3 +356,13 @@
 .ha-in {
   -webkit-animation-direction: alternate;
           animation-direction: alternate; }
+
+@supports not ((-webkit-animation-fill-mode: both) or (animation-fill-mode: both)) {
+  .ha-animate {
+    -webkit-animation: none !important;
+            animation: none !important; } }
+
+@media (prefers-reduced-motion: reduce), (print) {
+  .ha-animate {
+    -webkit-animation: none !important;
+            animation: none !important; } }
