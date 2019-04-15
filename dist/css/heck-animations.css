@@ -169,15 +169,8 @@
           animation-name: "zoom-back"; }
 
 /* Spin Animations */
-/* Base */
-body {
-  overflow-x: hidden !important; }
-
 /* Utilities */
 .ha-animate {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
@@ -190,200 +183,249 @@ body {
           animation-fill-mode: both; }
 
 /* Duration */
-.ha-duration-100 {
+.ha-duration-100,
+.ha-dur-100 {
   -webkit-animation-duration: 100ms;
           animation-duration: 100ms; }
 
-.ha-duration-200 {
+.ha-duration-200,
+.ha-dur-200 {
   -webkit-animation-duration: 200ms;
           animation-duration: 200ms; }
 
-.ha-duration-300 {
+.ha-duration-300,
+.ha-dur-300 {
   -webkit-animation-duration: 300ms;
           animation-duration: 300ms; }
 
-.ha-duration-400 {
+.ha-duration-400,
+.ha-dur-400 {
   -webkit-animation-duration: 400ms;
           animation-duration: 400ms; }
 
-.ha-duration-500 {
+.ha-duration-500,
+.ha-dur-500 {
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms; }
 
-.ha-duration-600 {
+.ha-duration-600,
+.ha-dur-600 {
   -webkit-animation-duration: 600ms;
           animation-duration: 600ms; }
 
-.ha-duration-700 {
+.ha-duration-700,
+.ha-dur-700 {
   -webkit-animation-duration: 700ms;
           animation-duration: 700ms; }
 
-.ha-duration-800 {
+.ha-duration-800,
+.ha-dur-800 {
   -webkit-animation-duration: 800ms;
           animation-duration: 800ms; }
 
-.ha-duration-900 {
+.ha-duration-900,
+.ha-dur-900 {
   -webkit-animation-duration: 900ms;
           animation-duration: 900ms; }
 
-.ha-duration-1000 {
+.ha-duration-1000,
+.ha-dur-1000 {
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms; }
 
-.ha-duration-1100 {
+.ha-duration-1100,
+.ha-dur-1100 {
   -webkit-animation-duration: 1100ms;
           animation-duration: 1100ms; }
 
-.ha-duration-1200 {
+.ha-duration-1200,
+.ha-dur-1200 {
   -webkit-animation-duration: 1200ms;
           animation-duration: 1200ms; }
 
-.ha-duration-1300 {
+.ha-duration-1300,
+.ha-dur-1300 {
   -webkit-animation-duration: 1300ms;
           animation-duration: 1300ms; }
 
-.ha-duration-1400 {
+.ha-duration-1400,
+.ha-dur-1400 {
   -webkit-animation-duration: 1400ms;
           animation-duration: 1400ms; }
 
-.ha-duration-1500 {
+.ha-duration-1500,
+.ha-dur-1500 {
   -webkit-animation-duration: 1500ms;
           animation-duration: 1500ms; }
 
-.ha-duration-1600 {
+.ha-duration-1600,
+.ha-dur-1600 {
   -webkit-animation-duration: 1600ms;
           animation-duration: 1600ms; }
 
-.ha-duration-1700 {
+.ha-duration-1700,
+.ha-dur-1700 {
   -webkit-animation-duration: 1700ms;
           animation-duration: 1700ms; }
 
-.ha-duration-1800 {
+.ha-duration-1800,
+.ha-dur-1800 {
   -webkit-animation-duration: 1800ms;
           animation-duration: 1800ms; }
 
-.ha-duration-1900 {
+.ha-duration-1900,
+.ha-dur-1900 {
   -webkit-animation-duration: 1900ms;
           animation-duration: 1900ms; }
 
-.ha-duration-2000 {
+.ha-duration-2000,
+.ha-dur-2000 {
   -webkit-animation-duration: 2000ms;
           animation-duration: 2000ms; }
 
 /* Timing Functions */
-.ha-timing-linear {
+.ha-timing-linear,
+.ha-linear {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear; }
 
-.ha-timing-ease {
+.ha-timing-ease,
+.ha-ease {
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease; }
 
-.ha-timing-ease-in {
+.ha-timing-ease-in,
+.ha-ease-in {
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in; }
 
-.ha-timing-ease-out {
+.ha-timing-ease-out,
+.ha-ease-out {
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out; }
 
-.ha-timing-ease-in-out {
+.ha-timing-ease-in-out,
+.ha-ease-in-out {
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out; }
 
-.ha-timing-sine-in {
+.ha-timing-sine-in,
+.ha-sine-in {
   -webkit-animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
           animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); }
 
-.ha-timing-sine-out {
+.ha-timing-sine-out,
+.ha-sine-out {
   -webkit-animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
           animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1); }
 
-.ha-timing-sine-in-out {
+.ha-timing-sine-in-out,
+.ha-sine-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
           animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); }
 
-.ha-timing-suad-in {
+.ha-timing-quad-in,
+.ha-quad-in {
   -webkit-animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
           animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
 
-.ha-timing-quad-out {
+.ha-timing-quad-out,
+.ha-quad-out {
   -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
           animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
-.ha-timing-quad-in-out {
+.ha-timing-quad-in-out,
+.ha-quad-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
           animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 
-.ha-timing-cubic-in {
+.ha-timing-cubic-in,
+.ha-cubic-in {
   -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
           animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
 
-.ha-timing-cubic-out {
+.ha-timing-cubic-out,
+.ha-cubic-out {
   -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
           animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
 
-.ha-timing-cubic-in-out {
+.ha-timing-cubic-in-out,
+.ha-cubic-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
           animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); }
 
-.ha-timing-quart-in {
+.ha-timing-quart-in,
+.ha-quart-in {
   -webkit-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
           animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
 
-.ha-timing-quart-out {
+.ha-timing-quart-out,
+.ha-quart-out {
   -webkit-animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
           animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
 
-.ha-timing-quart-in-out {
+.ha-timing-quart-in-out,
+.ha-quart-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
           animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1); }
 
-.ha-timing-quint-in {
+.ha-timing-quint-in,
+.ha-quint-in {
   -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
           animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
 
-.ha-timing-quint-out {
+.ha-timing-quint-out,
+.ha-quint-out {
   -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
           animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
 
-.ha-timing-quint-in-out {
+.ha-timing-quint-in-out,
+.ha-quint-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
           animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1); }
 
-.ha-timing-expo-in {
+.ha-timing-expo-in,
+.ha-expo-in {
   -webkit-animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
           animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
 
-.ha-timing-expo-out {
+.ha-timing-expo-out,
+.ha-expo-out {
   -webkit-animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
           animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
 
-.ha-timing-expo-in-out {
+.ha-timing-expo-in-out,
+.ha-expo-in-out {
   -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
           animation-timing-function: cubic-bezier(1, 0, 0, 1); }
 
-.ha-timing-circ-in {
+.ha-timing-circ-in,
+.ha-circ-in {
   -webkit-animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
           animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
 
-.ha-timing-circ-out {
+.ha-timing-circ-out,
+.ha-circ-out {
   -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
           animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
 
-.ha-timing-circ-in-out {
+.ha-timing-circ-in-out,
+.ha-circ-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
           animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
-.ha-timing-back-in {
+.ha-timing-back-in,
+.ha-back-in {
   -webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
           animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
 
-.ha-timing-back-out {
+.ha-timing-back-out,
+.ha-back-out {
   -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
           animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
-.ha-timing-back-in-out {
+.ha-timing-back-in-out,
+.ha-back-in-out {
   -webkit-animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
           animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
@@ -473,47 +515,58 @@ body {
           animation-delay: 2000ms; }
 
 /* Iteration Count */
-.ha-iteration-infinite {
+.ha-iteration-infinite,
+.ha-infinite {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; }
 
-.ha-iteration-1 {
+.ha-iteration-1,
+.ha-1 {
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1; }
 
-.ha-iteration-2 {
+.ha-iteration-2,
+.ha-2 {
   -webkit-animation-iteration-count: 2;
           animation-iteration-count: 2; }
 
-.ha-iteration-3 {
+.ha-iteration-3,
+.ha-3 {
   -webkit-animation-iteration-count: 3;
           animation-iteration-count: 3; }
 
-.ha-iteration-4 {
+.ha-iteration-4,
+.ha-4 {
   -webkit-animation-iteration-count: 4;
           animation-iteration-count: 4; }
 
-.ha-iteration-5 {
+.ha-iteration-5,
+.ha-5 {
   -webkit-animation-iteration-count: 5;
           animation-iteration-count: 5; }
 
-.ha-iteration-6 {
+.ha-iteration-6,
+.ha-6 {
   -webkit-animation-iteration-count: 6;
           animation-iteration-count: 6; }
 
-.ha-iteration-7 {
+.ha-iteration-7,
+.ha-7 {
   -webkit-animation-iteration-count: 7;
           animation-iteration-count: 7; }
 
-.ha-iteration-8 {
+.ha-iteration-8,
+.ha-8 {
   -webkit-animation-iteration-count: 8;
           animation-iteration-count: 8; }
 
-.ha-iteration-9 {
+.ha-iteration-9,
+.ha-9 {
   -webkit-animation-iteration-count: 9;
           animation-iteration-count: 9; }
 
-.ha-iteration-10 {
+.ha-iteration-10,
+.ha-10 {
   -webkit-animation-iteration-count: 10;
           animation-iteration-count: 10; }
 
@@ -526,6 +579,15 @@ body {
 .ha-in {
   -webkit-animation-direction: alternate;
           animation-direction: alternate; }
+
+/* Animation Play State */
+.ha-paused {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused; }
+
+.ha-running {
+  -webkit-animation-play-state: running;
+          animation-play-state: running; }
 
 /* Animations Off: Responsive */
 @media (min-width: 0px) {
