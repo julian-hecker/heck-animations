@@ -48,10 +48,10 @@ download and include the `heck-animations.css` file into your project and link t
 [See all class documentation](./docs/classes/readme.md) <!-- Create docs/classes.md/ -->
 
 ## Accessibility
-Supports `prefers-reduced-motion` media query for motion-sensitive users; will disable moving animations, but allows opacity to still be animated.
+Supports `prefers-reduced-motion` media query for motion-sensitive users; will disable animations if their device settings request reduced motion.
 
 ## Compatability
 Normally, browsers that do not support animations will cause animated components to break. By using the `@supports` query, Heck Animations prevents pages from being broken on older browsers. If animations (or @supports) are not supported, then elements will display normally and not animate.
 
 ## License
-Heck Animations is licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Heck Animations is licensed under the [MIT license](./LICENSE).
