@@ -29,7 +29,8 @@
 
 /* Delays */
 @for $i from 0 through 20 {
-  .#{$namespace}delay-#{$i * 100} {
+  .#{$namespace}delay-#{$i * 100},
+  .#{$namespace}del-#{$i * 100} {
     animation-delay: #{$i * 100}ms;
   }
 }
@@ -65,6 +66,8 @@
 .#{$namespace}running {
   animation-play-state: running;
 }
+
+// Disable animations with play-state: paused;
 
 /* Animations Off: Responsive */
 // Refactor complicated loops

@@ -430,87 +430,108 @@
           animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 /* Delays */
-.ha-delay-0 {
+.ha-delay-0,
+.ha-del-0 {
   -webkit-animation-delay: 0ms;
           animation-delay: 0ms; }
 
-.ha-delay-100 {
+.ha-delay-100,
+.ha-del-100 {
   -webkit-animation-delay: 100ms;
           animation-delay: 100ms; }
 
-.ha-delay-200 {
+.ha-delay-200,
+.ha-del-200 {
   -webkit-animation-delay: 200ms;
           animation-delay: 200ms; }
 
-.ha-delay-300 {
+.ha-delay-300,
+.ha-del-300 {
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms; }
 
-.ha-delay-400 {
+.ha-delay-400,
+.ha-del-400 {
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms; }
 
-.ha-delay-500 {
+.ha-delay-500,
+.ha-del-500 {
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms; }
 
-.ha-delay-600 {
+.ha-delay-600,
+.ha-del-600 {
   -webkit-animation-delay: 600ms;
           animation-delay: 600ms; }
 
-.ha-delay-700 {
+.ha-delay-700,
+.ha-del-700 {
   -webkit-animation-delay: 700ms;
           animation-delay: 700ms; }
 
-.ha-delay-800 {
+.ha-delay-800,
+.ha-del-800 {
   -webkit-animation-delay: 800ms;
           animation-delay: 800ms; }
 
-.ha-delay-900 {
+.ha-delay-900,
+.ha-del-900 {
   -webkit-animation-delay: 900ms;
           animation-delay: 900ms; }
 
-.ha-delay-1000 {
+.ha-delay-1000,
+.ha-del-1000 {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms; }
 
-.ha-delay-1100 {
+.ha-delay-1100,
+.ha-del-1100 {
   -webkit-animation-delay: 1100ms;
           animation-delay: 1100ms; }
 
-.ha-delay-1200 {
+.ha-delay-1200,
+.ha-del-1200 {
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms; }
 
-.ha-delay-1300 {
+.ha-delay-1300,
+.ha-del-1300 {
   -webkit-animation-delay: 1300ms;
           animation-delay: 1300ms; }
 
-.ha-delay-1400 {
+.ha-delay-1400,
+.ha-del-1400 {
   -webkit-animation-delay: 1400ms;
           animation-delay: 1400ms; }
 
-.ha-delay-1500 {
+.ha-delay-1500,
+.ha-del-1500 {
   -webkit-animation-delay: 1500ms;
           animation-delay: 1500ms; }
 
-.ha-delay-1600 {
+.ha-delay-1600,
+.ha-del-1600 {
   -webkit-animation-delay: 1600ms;
           animation-delay: 1600ms; }
 
-.ha-delay-1700 {
+.ha-delay-1700,
+.ha-del-1700 {
   -webkit-animation-delay: 1700ms;
           animation-delay: 1700ms; }
 
-.ha-delay-1800 {
+.ha-delay-1800,
+.ha-del-1800 {
   -webkit-animation-delay: 1800ms;
           animation-delay: 1800ms; }
 
-.ha-delay-1900 {
+.ha-delay-1900,
+.ha-del-1900 {
   -webkit-animation-delay: 1900ms;
           animation-delay: 1900ms; }
 
-.ha-delay-2000 {
+.ha-delay-2000,
+.ha-del-2000 {
   -webkit-animation-delay: 2000ms;
           animation-delay: 2000ms; }
 
