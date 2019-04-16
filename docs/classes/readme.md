@@ -52,7 +52,7 @@ There are some conditions that will stop animations from running:
 - Print Media
 
 ### Responsive Disabling
-You can stop animations from working in specific viewport sizes by adding a class: `ha-off`*size*-*direction*, 
+You can stop animations from working in specific viewport sizes by adding a class: "`ha-off`*size*-*direction*", 
 
 where *size* is `xs`, `sm`, `md`, `lg`, or `xl`, and
 
@@ -67,6 +67,7 @@ Animations use `@supports` to test the browsers' support of the `animation-fill-
 
 ### Prefers Reduced Motion
 If a user's device or browser settings prefer reduced motion, animations won't run.
+
 In iOS, this can be changed by going into `Settings > General > Accessibility > Reduce Motion`.
 
 ### Print
