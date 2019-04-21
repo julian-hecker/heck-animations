@@ -1,0 +1,13 @@
+/* Duration */
+@each $bkpt-label, $bkpt-value in $breakpoints {
+  @media (min-width: #{$bkpt-value}) {
+    @each $dur-label, $dur-value in $durations {
+      .#{$namespace}duration-#{$dur-label}#{$bkpt-label},
+      .#{$namespace}dur-#{$dur-label}#{$bkpt-label},
+      .#{$namespace}duration-#{$dur-value}#{$bkpt-label},
+      .#{$namespace}dur-#{$dur-value}#{$bkpt-label} {
+        animation-duration: #{$dur-value}ms;
+      }
+    } 
+  }
+}

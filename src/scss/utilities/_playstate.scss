@@ -1,0 +1,7 @@
+/* Animation Play State */
+.#{$namespace}paused {
+  animation-play-state: paused;
+}
+.#{$namespace}running {
+  animation-play-state: running;
+}

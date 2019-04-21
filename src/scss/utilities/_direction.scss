@@ -1,0 +1,10 @@
+/* Animation Direction */
+.#{$namespace}direction-out,
+.#{$namespace}out {
+  animation-direction: alternate-reverse;
+}
+
+.#{$namespace}direction-in,
+.#{$namespace}in {
+  animation-direction: alternate;
+}

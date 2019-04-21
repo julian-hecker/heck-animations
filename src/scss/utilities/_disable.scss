@@ -1,0 +1,32 @@
+/* Disable */
+
+/* Animations Off: Responsive */
+// TODO: Replace with animation-duration: 0;
+// Refactor complicated loops
+@for $i from 1 through length($breakpoints) {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (min-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-up {
+      animation: none !important;
+    }
+  }
+}
+
+@for $i from length($breakpoints) through 2 {
+  $bkpt-label: nth(nth($breakpoints, $i), 1);
+  $bkpt-value: nth(nth($breakpoints, $i), 2);
+  @media (max-width: $bkpt-value) {
+    .#{$namespace}off#{$bkpt-label}-down {
+      animation: none !important;
+    }
+  }
+}
+
+/* Media Query for Reduced Motion and Print */
+@media (prefers-reduced-motion: reduce), (print) {
+  .#{$namespace}animate {
+    animation: none !important;
+  }
+}
+

@@ -1,0 +1,8 @@
+/* Animate */
+.#{$namespace}animate {
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}

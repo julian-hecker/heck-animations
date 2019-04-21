@@ -15,5 +15,14 @@
 // Animations
 @import './animations/animations';
 
-// Utilities
-@import './utilities/utilities';
+/* Utilities */
+@import './utilities/animate';
+
+// Disable any of the next files
+@import './utilities/duration';
+@import './utilities/timing';
+@import './utilities/delay';
+@import './utilities/iteration';
+@import './utilities/direction';
+@import './utilities/playstate';
+@import './utilities/disable';

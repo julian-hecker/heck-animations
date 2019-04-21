@@ -1,0 +1,13 @@
+/* Delays */
+@each $bkpt-label, $bkpt-value in $breakpoints {
+  @media (min-width: #{$bkpt-value}) {
+    @each $del-label, $del-value in $delays {
+      .#{$namespace}delay-#{$del-label}#{$bkpt-label},
+      .#{$namespace}del-#{$del-label}#{$bkpt-label},
+      .#{$namespace}delay-#{$del-value}#{$bkpt-label},
+      .#{$namespace}del-#{$del-value}#{$bkpt-label} {
+        animation-duration: #{$del-value}ms;
+      }
+    } 
+  }
+}

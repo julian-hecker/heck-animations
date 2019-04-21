@@ -1,0 +1,12 @@
+/* Iteration Count */
+.#{$namespace}iteration-infinite,
+.#{$namespace}infinite {
+  animation-iteration-count: infinite;
+}
+
+@for $i from 1 through 10 {
+  .#{$namespace}iteration-#{$i},
+  .#{$namespace}#{$i} {
+    animation-iteration-count: $i;
+  }
+}
