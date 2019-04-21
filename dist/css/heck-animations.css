@@ -183,105 +183,285 @@
           animation-fill-mode: both; }
 
 /* Duration */
-.ha-duration-100,
-.ha-dur-100 {
-  -webkit-animation-duration: 100ms;
-          animation-duration: 100ms; }
+@media (min-width: 0px) {
+  .ha-duration-xxxs,
+  .ha-dur-xxxs,
+  .ha-duration20,
+  .ha-dur20 {
+    -webkit-animation-duration: 20ms;
+            animation-duration: 20ms; }
+  .ha-duration-xxs,
+  .ha-dur-xxs,
+  .ha-duration50,
+  .ha-dur50 {
+    -webkit-animation-duration: 50ms;
+            animation-duration: 50ms; }
+  .ha-duration-xs,
+  .ha-dur-xs,
+  .ha-duration100,
+  .ha-dur100 {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms; }
+  .ha-duration-sm,
+  .ha-dur-sm,
+  .ha-duration200,
+  .ha-dur200 {
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  .ha-duration-md,
+  .ha-dur-md,
+  .ha-duration300,
+  .ha-dur300 {
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms; }
+  .ha-duration-lg,
+  .ha-dur-lg,
+  .ha-duration400,
+  .ha-dur400 {
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms; }
+  .ha-duration-xl,
+  .ha-dur-xl,
+  .ha-duration500,
+  .ha-dur500 {
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms; }
+  .ha-duration-xxl,
+  .ha-dur-xxl,
+  .ha-duration700,
+  .ha-dur700 {
+    -webkit-animation-duration: 700ms;
+            animation-duration: 700ms; }
+  .ha-duration-xxxl,
+  .ha-dur-xxxl,
+  .ha-duration1000,
+  .ha-dur1000 {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms; } }
 
-.ha-duration-200,
-.ha-dur-200 {
-  -webkit-animation-duration: 200ms;
-          animation-duration: 200ms; }
+@media (min-width: 600px) {
+  .ha-duration-xxxs-sm,
+  .ha-dur-xxxs-sm,
+  .ha-duration20-sm,
+  .ha-dur20-sm {
+    -webkit-animation-duration: 20ms;
+            animation-duration: 20ms; }
+  .ha-duration-xxs-sm,
+  .ha-dur-xxs-sm,
+  .ha-duration50-sm,
+  .ha-dur50-sm {
+    -webkit-animation-duration: 50ms;
+            animation-duration: 50ms; }
+  .ha-duration-xs-sm,
+  .ha-dur-xs-sm,
+  .ha-duration100-sm,
+  .ha-dur100-sm {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms; }
+  .ha-duration-sm-sm,
+  .ha-dur-sm-sm,
+  .ha-duration200-sm,
+  .ha-dur200-sm {
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  .ha-duration-md-sm,
+  .ha-dur-md-sm,
+  .ha-duration300-sm,
+  .ha-dur300-sm {
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms; }
+  .ha-duration-lg-sm,
+  .ha-dur-lg-sm,
+  .ha-duration400-sm,
+  .ha-dur400-sm {
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms; }
+  .ha-duration-xl-sm,
+  .ha-dur-xl-sm,
+  .ha-duration500-sm,
+  .ha-dur500-sm {
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms; }
+  .ha-duration-xxl-sm,
+  .ha-dur-xxl-sm,
+  .ha-duration700-sm,
+  .ha-dur700-sm {
+    -webkit-animation-duration: 700ms;
+            animation-duration: 700ms; }
+  .ha-duration-xxxl-sm,
+  .ha-dur-xxxl-sm,
+  .ha-duration1000-sm,
+  .ha-dur1000-sm {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms; } }
 
-.ha-duration-300,
-.ha-dur-300 {
-  -webkit-animation-duration: 300ms;
-          animation-duration: 300ms; }
+@media (min-width: 900px) {
+  .ha-duration-xxxs-md,
+  .ha-dur-xxxs-md,
+  .ha-duration20-md,
+  .ha-dur20-md {
+    -webkit-animation-duration: 20ms;
+            animation-duration: 20ms; }
+  .ha-duration-xxs-md,
+  .ha-dur-xxs-md,
+  .ha-duration50-md,
+  .ha-dur50-md {
+    -webkit-animation-duration: 50ms;
+            animation-duration: 50ms; }
+  .ha-duration-xs-md,
+  .ha-dur-xs-md,
+  .ha-duration100-md,
+  .ha-dur100-md {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms; }
+  .ha-duration-sm-md,
+  .ha-dur-sm-md,
+  .ha-duration200-md,
+  .ha-dur200-md {
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  .ha-duration-md-md,
+  .ha-dur-md-md,
+  .ha-duration300-md,
+  .ha-dur300-md {
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms; }
+  .ha-duration-lg-md,
+  .ha-dur-lg-md,
+  .ha-duration400-md,
+  .ha-dur400-md {
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms; }
+  .ha-duration-xl-md,
+  .ha-dur-xl-md,
+  .ha-duration500-md,
+  .ha-dur500-md {
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms; }
+  .ha-duration-xxl-md,
+  .ha-dur-xxl-md,
+  .ha-duration700-md,
+  .ha-dur700-md {
+    -webkit-animation-duration: 700ms;
+            animation-duration: 700ms; }
+  .ha-duration-xxxl-md,
+  .ha-dur-xxxl-md,
+  .ha-duration1000-md,
+  .ha-dur1000-md {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms; } }
 
-.ha-duration-400,
-.ha-dur-400 {
-  -webkit-animation-duration: 400ms;
-          animation-duration: 400ms; }
+@media (min-width: 1200px) {
+  .ha-duration-xxxs-lg,
+  .ha-dur-xxxs-lg,
+  .ha-duration20-lg,
+  .ha-dur20-lg {
+    -webkit-animation-duration: 20ms;
+            animation-duration: 20ms; }
+  .ha-duration-xxs-lg,
+  .ha-dur-xxs-lg,
+  .ha-duration50-lg,
+  .ha-dur50-lg {
+    -webkit-animation-duration: 50ms;
+            animation-duration: 50ms; }
+  .ha-duration-xs-lg,
+  .ha-dur-xs-lg,
+  .ha-duration100-lg,
+  .ha-dur100-lg {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms; }
+  .ha-duration-sm-lg,
+  .ha-dur-sm-lg,
+  .ha-duration200-lg,
+  .ha-dur200-lg {
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  .ha-duration-md-lg,
+  .ha-dur-md-lg,
+  .ha-duration300-lg,
+  .ha-dur300-lg {
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms; }
+  .ha-duration-lg-lg,
+  .ha-dur-lg-lg,
+  .ha-duration400-lg,
+  .ha-dur400-lg {
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms; }
+  .ha-duration-xl-lg,
+  .ha-dur-xl-lg,
+  .ha-duration500-lg,
+  .ha-dur500-lg {
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms; }
+  .ha-duration-xxl-lg,
+  .ha-dur-xxl-lg,
+  .ha-duration700-lg,
+  .ha-dur700-lg {
+    -webkit-animation-duration: 700ms;
+            animation-duration: 700ms; }
+  .ha-duration-xxxl-lg,
+  .ha-dur-xxxl-lg,
+  .ha-duration1000-lg,
+  .ha-dur1000-lg {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms; } }
 
-.ha-duration-500,
-.ha-dur-500 {
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms; }
-
-.ha-duration-600,
-.ha-dur-600 {
-  -webkit-animation-duration: 600ms;
-          animation-duration: 600ms; }
-
-.ha-duration-700,
-.ha-dur-700 {
-  -webkit-animation-duration: 700ms;
-          animation-duration: 700ms; }
-
-.ha-duration-800,
-.ha-dur-800 {
-  -webkit-animation-duration: 800ms;
-          animation-duration: 800ms; }
-
-.ha-duration-900,
-.ha-dur-900 {
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms; }
-
-.ha-duration-1000,
-.ha-dur-1000 {
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms; }
-
-.ha-duration-1100,
-.ha-dur-1100 {
-  -webkit-animation-duration: 1100ms;
-          animation-duration: 1100ms; }
-
-.ha-duration-1200,
-.ha-dur-1200 {
-  -webkit-animation-duration: 1200ms;
-          animation-duration: 1200ms; }
-
-.ha-duration-1300,
-.ha-dur-1300 {
-  -webkit-animation-duration: 1300ms;
-          animation-duration: 1300ms; }
-
-.ha-duration-1400,
-.ha-dur-1400 {
-  -webkit-animation-duration: 1400ms;
-          animation-duration: 1400ms; }
-
-.ha-duration-1500,
-.ha-dur-1500 {
-  -webkit-animation-duration: 1500ms;
-          animation-duration: 1500ms; }
-
-.ha-duration-1600,
-.ha-dur-1600 {
-  -webkit-animation-duration: 1600ms;
-          animation-duration: 1600ms; }
-
-.ha-duration-1700,
-.ha-dur-1700 {
-  -webkit-animation-duration: 1700ms;
-          animation-duration: 1700ms; }
-
-.ha-duration-1800,
-.ha-dur-1800 {
-  -webkit-animation-duration: 1800ms;
-          animation-duration: 1800ms; }
-
-.ha-duration-1900,
-.ha-dur-1900 {
-  -webkit-animation-duration: 1900ms;
-          animation-duration: 1900ms; }
-
-.ha-duration-2000,
-.ha-dur-2000 {
-  -webkit-animation-duration: 2000ms;
-          animation-duration: 2000ms; }
+@media (min-width: 1600px) {
+  .ha-duration-xxxs-xl,
+  .ha-dur-xxxs-xl,
+  .ha-duration20-xl,
+  .ha-dur20-xl {
+    -webkit-animation-duration: 20ms;
+            animation-duration: 20ms; }
+  .ha-duration-xxs-xl,
+  .ha-dur-xxs-xl,
+  .ha-duration50-xl,
+  .ha-dur50-xl {
+    -webkit-animation-duration: 50ms;
+            animation-duration: 50ms; }
+  .ha-duration-xs-xl,
+  .ha-dur-xs-xl,
+  .ha-duration100-xl,
+  .ha-dur100-xl {
+    -webkit-animation-duration: 100ms;
+            animation-duration: 100ms; }
+  .ha-duration-sm-xl,
+  .ha-dur-sm-xl,
+  .ha-duration200-xl,
+  .ha-dur200-xl {
+    -webkit-animation-duration: 200ms;
+            animation-duration: 200ms; }
+  .ha-duration-md-xl,
+  .ha-dur-md-xl,
+  .ha-duration300-xl,
+  .ha-dur300-xl {
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms; }
+  .ha-duration-lg-xl,
+  .ha-dur-lg-xl,
+  .ha-duration400-xl,
+  .ha-dur400-xl {
+    -webkit-animation-duration: 400ms;
+            animation-duration: 400ms; }
+  .ha-duration-xl-xl,
+  .ha-dur-xl-xl,
+  .ha-duration500-xl,
+  .ha-dur500-xl {
+    -webkit-animation-duration: 500ms;
+            animation-duration: 500ms; }
+  .ha-duration-xxl-xl,
+  .ha-dur-xxl-xl,
+  .ha-duration700-xl,
+  .ha-dur700-xl {
+    -webkit-animation-duration: 700ms;
+            animation-duration: 700ms; }
+  .ha-duration-xxxl-xl,
+  .ha-dur-xxxl-xl,
+  .ha-duration1000-xl,
+  .ha-dur1000-xl {
+    -webkit-animation-duration: 1000ms;
+            animation-duration: 1000ms; } }
 
 /* Timing Functions */
 .ha-timing-linear,
@@ -612,7 +792,7 @@
 
 /* Animations Off: Responsive */
 @media (min-width: 0px) {
-  .ha-off-xs-up {
+  .ha-off-up {
     -webkit-animation: none !important;
             animation: none !important; } }
 
@@ -653,12 +833,6 @@
 
 @media (max-width: 600px) {
   .ha-off-sm-down {
-    -webkit-animation: none !important;
-            animation: none !important; } }
-
-/* Support Query */
-@supports not ((-webkit-animation-fill-mode: both) or (animation-fill-mode: both)) {
-  .ha-animate {
     -webkit-animation: none !important;
             animation: none !important; } }
 
