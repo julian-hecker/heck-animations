@@ -51,7 +51,10 @@ download and include the `heck-animations.css` file into your project and link t
 Supports `prefers-reduced-motion` media query for motion-sensitive users; will disable animations if their device settings request reduced motion.
 
 ## Compatability
-Normally, browsers that do not support animations will cause animated components to break. By using the `@supports` query, Heck Animations prevents pages from being broken on older browsers. If animations (or @supports) are not supported, then elements will display normally and not animate.
+<!-- Normally, browsers that do not support animations will cause animated components to break. By using the `@supports` query, Heck Animations prevents pages from being broken on older browsers. If animations (or @supports) are not supported, then elements will display normally and not animate. -->
+Animations are compatible with 97% of global browsers. If a browser does not support Animations, there will be a reasonable fallback.
+
+[CanIUse Table](https://caniuse.com/#search=animation)
 
 ## License
 Heck Animations is licensed under the [MIT license](./LICENSE).

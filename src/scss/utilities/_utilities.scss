@@ -67,8 +67,6 @@
   animation-play-state: running;
 }
 
-// Disable animations with play-state: paused;
-
 /* Animations Off: Responsive */
 // Refactor complicated loops
 @for $i from 1 through length($breakpoints) {
@@ -91,12 +89,13 @@
   }
 }
 
-/* Support Query */
-@supports not (animation-fill-mode: both) {
-  .#{$namespace}animate {
-    animation: none !important;
-  }
-}
+// /* Support Query */
+// Browser support is extensive, this not required.
+// @supports not (animation-fill-mode: both) {
+//   .#{$namespace}animate {
+//     animation: none !important;
+//   }
+// }
 
 /* Media Query for Reduced Motion and Print */
 @media (prefers-reduced-motion: reduce), (print) {
