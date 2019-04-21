@@ -1,8 +1,6 @@
 /* Disable */
 
 /* Animations Off: Responsive */
-// TODO: Replace with animation-duration: 0;
-// Refactor complicated loops
 @for $i from 1 through length($breakpoints) {
   $bkpt-label: nth(nth($breakpoints, $i), 1);
   $bkpt-value: nth(nth($breakpoints, $i), 2);

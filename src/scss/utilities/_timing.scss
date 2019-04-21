@@ -1,6 +1,4 @@
 /* Timing Functions */
-// Implement system that uses animation-direction value 
-// To determine using in or out timing function
 @each $timing-label, $timing-value in $timings {
   .#{$namespace}timing-#{$timing-label},
   .#{$namespace}#{$timing-label} {

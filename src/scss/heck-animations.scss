@@ -7,8 +7,6 @@
  * 
  */
 
-// Todo: categorize animations
-
 // Settings
 @import './settings/variable';
 
@@ -17,7 +15,6 @@
 
 /* Utilities */
 @import './utilities/animate';
-
 // Disable any of the next files
 @import './utilities/duration';
 @import './utilities/timing';
@@ -26,3 +23,7 @@
 @import './utilities/direction';
 @import './utilities/playstate';
 @import './utilities/disable';
+
+// Remove "responsive disabling", instead add breakpoints to animate.scss
+// Update timing-functions, such that animation automatically plays "out" timing function when going out.
+// Update documentation; Classes: Duration, Delay, @supports, file locations
