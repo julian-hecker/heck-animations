@@ -1,29 +1,13 @@
 // TODO: Split into files
-/* Utilities */
-// Animate
-.#{$namespace}animate {
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 1;
-  animation-direction: alternate;
-  animation-fill-mode: both;
-}
 
 /* Duration */
-// @for $i from 1 through 20 {
-//   .#{$namespace}duration-#{$i * 100},
-//   .#{$namespace}dur-#{$i * 100} {
-//     animation-duration: #{$i * 100}ms;
-//   }
-// }
-
 @each $bkpt-label, $bkpt-value in $breakpoints {
   @media (min-width: #{$bkpt-value}) {
     @each $dur-label, $dur-value in $durations {
-      .#{$namespace}duration#{$dur-label}#{$bkpt-label},
-      .#{$namespace}dur#{$dur-label}#{$bkpt-label},
-      .#{$namespace}duration#{$dur-value}#{$bkpt-label},
-      .#{$namespace}dur#{$dur-value}#{$bkpt-label} {
+      .#{$namespace}duration-#{$dur-label}#{$bkpt-label},
+      .#{$namespace}dur-#{$dur-label}#{$bkpt-label},
+      .#{$namespace}duration-#{$dur-value}#{$bkpt-label},
+      .#{$namespace}dur-#{$dur-value}#{$bkpt-label} {
         animation-duration: #{$dur-value}ms;
       }
     } 
@@ -41,10 +25,16 @@
 }
 
 /* Delays */
-@for $i from 0 through 20 {
-  .#{$namespace}delay-#{$i * 100},
-  .#{$namespace}del-#{$i * 100} {
-    animation-delay: #{$i * 100}ms;
+@each $bkpt-label, $bkpt-value in $breakpoints {
+  @media (min-width: #{$bkpt-value}) {
+    @each $del-label, $del-value in $delays {
+      .#{$namespace}delay-#{$del-label}#{$bkpt-label},
+      .#{$namespace}del-#{$del-label}#{$bkpt-label},
+      .#{$namespace}delay-#{$del-value}#{$bkpt-label},
+      .#{$namespace}del-#{$del-value}#{$bkpt-label} {
+        animation-duration: #{$del-value}ms;
+      }
+    } 
   }
 }
 
@@ -81,6 +71,7 @@
 }
 
 /* Animations Off: Responsive */
+// TODO: Replace with animation-duration: 0;
 // Refactor complicated loops
 @for $i from 1 through length($breakpoints) {
   $bkpt-label: nth(nth($breakpoints, $i), 1);

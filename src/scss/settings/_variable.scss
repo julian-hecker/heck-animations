@@ -7,15 +7,15 @@ $namespace: "ha-" !default;
 
 // Values in ms
 $durations: (
-  "-xxxs":        20,
-  "-xxs":         50,
-  "-xs":          100,
-  "-sm":          200,
-  "-md":          300,
-  "-lg":          400,
-  "-xl":          500,
-  "-xxl":         700,
-  "-xxxl":        1000
+  "xxxs":        20,
+  "xxs":         50,
+  "xs":          100,
+  "sm":          200,
+  "md":          300,
+  "lg":          400,
+  "xl":          500,
+  "xxl":         700,
+  "xxxl":        1000
 );
 
 // Timing Functions
@@ -65,7 +65,18 @@ $timings: (
 
 // Delays
 
-
+// Values in ms
+$delays: (
+  "xxxs":        20,
+  "xxs":         50,
+  "xs":          100,
+  "sm":          200,
+  "md":          300,
+  "lg":          400,
+  "xl":          500,
+  "xxl":         700,
+  "xxxl":        1000
+);
 
 
 // Breakpoints
