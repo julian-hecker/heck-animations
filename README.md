@@ -29,11 +29,14 @@ download and include the `heck-animations.css` file into your project and link t
     - Disables animations if user settings request it.
 - Responsive Animations
     - Choose what viewport sizes your animations will display on!
+    
 <!-- COMING SOON
-
+- Reimplement durations, delays w/ maps
+- Responsive timings
 - Animate on Javascript event
 - Synchronous animations
 -->
+
 ## How to use
 1. Include Heck Animations in your HTML document's `<head>` using a `<link>`.
 2. Apply the following classes to the HTML Elements you wish to animate:
@@ -45,7 +48,11 @@ download and include the `heck-animations.css` file into your project and link t
         - Timing Function class. Default value: ease-in-out.
         - Iteration class. Default value: 1.
         
-[See all class documentation](./docs/classes/readme.md) <!-- Create docs/classes.md/ -->
+[See all class documentation](./docs/classes/readme.md)
+
+[See Animation Guide](https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9)
+<!-- -->
+
 
 ## Accessibility
 Supports `prefers-reduced-motion` media query for motion-sensitive users; will disable animations if their device settings request reduced motion.
