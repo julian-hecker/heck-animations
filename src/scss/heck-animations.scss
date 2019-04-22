@@ -8,7 +8,12 @@
  */
 
 // Settings
-@import './settings/variable';
+@import './settings/namespace';
+@import './settings/breakpoints';
+@import './settings/duration';
+@import './settings/timing';
+@import './settings/iteration';
+@import './settings/delay';
 
 // Animations
 @import './animations/animations';
@@ -22,8 +27,6 @@
 @import './utilities/iteration';
 @import './utilities/direction';
 @import './utilities/playstate';
-@import './utilities/disable';
+@import './utilities/no-animate';
 
-// Remove "responsive disabling", instead add breakpoints to animate.scss
 // Update timing-functions, such that animation automatically plays "out" timing function when going out.
-// Update documentation; Classes: Duration, Delay, @supports, file locations
