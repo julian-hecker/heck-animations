@@ -1,11 +1,11 @@
 /* Disable */
 
-/* Animations Off: Responsive */
+/* Responsive No-Animate */
 @for $i from 1 through length($breakpoints) {
   $bkpt-label: nth(nth($breakpoints, $i), 1);
   $bkpt-value: nth(nth($breakpoints, $i), 2);
   @media (min-width: $bkpt-value) {
-    .#{$namespace}off#{$bkpt-label}-up {
+    .#{$namespace}no-animate#{$bkpt-label}-up {
       animation: none !important;
     }
   }
@@ -15,7 +15,7 @@
   $bkpt-label: nth(nth($breakpoints, $i), 1);
   $bkpt-value: nth(nth($breakpoints, $i), 2);
   @media (max-width: $bkpt-value) {
-    .#{$namespace}off#{$bkpt-label}-down {
+    .#{$namespace}no-animate#{$bkpt-label}-down {
       animation: none !important;
     }
   }

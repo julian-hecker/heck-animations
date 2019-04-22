@@ -4,7 +4,7 @@
   animation-iteration-count: infinite;
 }
 
-@for $i from 1 through 10 {
+@for $i from $iteration-min through $iteration-max {
   .#{$namespace}iteration-#{$i},
   .#{$namespace}#{$i} {
     animation-iteration-count: $i;
