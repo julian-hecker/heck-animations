@@ -646,310 +646,310 @@
   .ha-del-xxxs,
   .ha-delay-20,
   .ha-del-20 {
-    -webkit-animation-duration: 20ms;
-            animation-duration: 20ms; }
+    -webkit-animation-delay: 20ms;
+            animation-delay: 20ms; }
   .ha-delay-xxs,
   .ha-del-xxs,
   .ha-delay-50,
   .ha-del-50 {
-    -webkit-animation-duration: 50ms;
-            animation-duration: 50ms; }
+    -webkit-animation-delay: 50ms;
+            animation-delay: 50ms; }
   .ha-delay-xs,
   .ha-del-xs,
   .ha-delay-100,
   .ha-del-100 {
-    -webkit-animation-duration: 100ms;
-            animation-duration: 100ms; }
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms; }
   .ha-delay-sm,
   .ha-del-sm,
   .ha-delay-200,
   .ha-del-200 {
-    -webkit-animation-duration: 200ms;
-            animation-duration: 200ms; }
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms; }
   .ha-delay-md,
   .ha-del-md,
   .ha-delay-300,
   .ha-del-300 {
-    -webkit-animation-duration: 300ms;
-            animation-duration: 300ms; }
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms; }
   .ha-delay-lg,
   .ha-del-lg,
   .ha-delay-500,
   .ha-del-500 {
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms; }
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms; }
   .ha-delay-xl,
   .ha-del-xl,
   .ha-delay-750,
   .ha-del-750 {
-    -webkit-animation-duration: 750ms;
-            animation-duration: 750ms; }
+    -webkit-animation-delay: 750ms;
+            animation-delay: 750ms; }
   .ha-delay-xxl,
   .ha-del-xxl,
   .ha-delay-1000,
   .ha-del-1000 {
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms; }
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms; }
   .ha-delay-xxxl,
   .ha-del-xxxl,
   .ha-delay-1500,
   .ha-del-1500 {
-    -webkit-animation-duration: 1500ms;
-            animation-duration: 1500ms; }
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 1500ms; }
   .ha-delay-xxxxl,
   .ha-del-xxxxl,
   .ha-delay-2000,
   .ha-del-2000 {
-    -webkit-animation-duration: 2000ms;
-            animation-duration: 2000ms; } }
+    -webkit-animation-delay: 2000ms;
+            animation-delay: 2000ms; } }
 
 @media (min-width: 600px) {
   .ha-delay-xxxs-sm,
   .ha-del-xxxs-sm,
   .ha-delay-20-sm,
   .ha-del-20-sm {
-    -webkit-animation-duration: 20ms;
-            animation-duration: 20ms; }
+    -webkit-animation-delay: 20ms;
+            animation-delay: 20ms; }
   .ha-delay-xxs-sm,
   .ha-del-xxs-sm,
   .ha-delay-50-sm,
   .ha-del-50-sm {
-    -webkit-animation-duration: 50ms;
-            animation-duration: 50ms; }
+    -webkit-animation-delay: 50ms;
+            animation-delay: 50ms; }
   .ha-delay-xs-sm,
   .ha-del-xs-sm,
   .ha-delay-100-sm,
   .ha-del-100-sm {
-    -webkit-animation-duration: 100ms;
-            animation-duration: 100ms; }
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms; }
   .ha-delay-sm-sm,
   .ha-del-sm-sm,
   .ha-delay-200-sm,
   .ha-del-200-sm {
-    -webkit-animation-duration: 200ms;
-            animation-duration: 200ms; }
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms; }
   .ha-delay-md-sm,
   .ha-del-md-sm,
   .ha-delay-300-sm,
   .ha-del-300-sm {
-    -webkit-animation-duration: 300ms;
-            animation-duration: 300ms; }
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms; }
   .ha-delay-lg-sm,
   .ha-del-lg-sm,
   .ha-delay-500-sm,
   .ha-del-500-sm {
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms; }
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms; }
   .ha-delay-xl-sm,
   .ha-del-xl-sm,
   .ha-delay-750-sm,
   .ha-del-750-sm {
-    -webkit-animation-duration: 750ms;
-            animation-duration: 750ms; }
+    -webkit-animation-delay: 750ms;
+            animation-delay: 750ms; }
   .ha-delay-xxl-sm,
   .ha-del-xxl-sm,
   .ha-delay-1000-sm,
   .ha-del-1000-sm {
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms; }
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms; }
   .ha-delay-xxxl-sm,
   .ha-del-xxxl-sm,
   .ha-delay-1500-sm,
   .ha-del-1500-sm {
-    -webkit-animation-duration: 1500ms;
-            animation-duration: 1500ms; }
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 1500ms; }
   .ha-delay-xxxxl-sm,
   .ha-del-xxxxl-sm,
   .ha-delay-2000-sm,
   .ha-del-2000-sm {
-    -webkit-animation-duration: 2000ms;
-            animation-duration: 2000ms; } }
+    -webkit-animation-delay: 2000ms;
+            animation-delay: 2000ms; } }
 
 @media (min-width: 900px) {
   .ha-delay-xxxs-md,
   .ha-del-xxxs-md,
   .ha-delay-20-md,
   .ha-del-20-md {
-    -webkit-animation-duration: 20ms;
-            animation-duration: 20ms; }
+    -webkit-animation-delay: 20ms;
+            animation-delay: 20ms; }
   .ha-delay-xxs-md,
   .ha-del-xxs-md,
   .ha-delay-50-md,
   .ha-del-50-md {
-    -webkit-animation-duration: 50ms;
-            animation-duration: 50ms; }
+    -webkit-animation-delay: 50ms;
+            animation-delay: 50ms; }
   .ha-delay-xs-md,
   .ha-del-xs-md,
   .ha-delay-100-md,
   .ha-del-100-md {
-    -webkit-animation-duration: 100ms;
-            animation-duration: 100ms; }
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms; }
   .ha-delay-sm-md,
   .ha-del-sm-md,
   .ha-delay-200-md,
   .ha-del-200-md {
-    -webkit-animation-duration: 200ms;
-            animation-duration: 200ms; }
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms; }
   .ha-delay-md-md,
   .ha-del-md-md,
   .ha-delay-300-md,
   .ha-del-300-md {
-    -webkit-animation-duration: 300ms;
-            animation-duration: 300ms; }
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms; }
   .ha-delay-lg-md,
   .ha-del-lg-md,
   .ha-delay-500-md,
   .ha-del-500-md {
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms; }
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms; }
   .ha-delay-xl-md,
   .ha-del-xl-md,
   .ha-delay-750-md,
   .ha-del-750-md {
-    -webkit-animation-duration: 750ms;
-            animation-duration: 750ms; }
+    -webkit-animation-delay: 750ms;
+            animation-delay: 750ms; }
   .ha-delay-xxl-md,
   .ha-del-xxl-md,
   .ha-delay-1000-md,
   .ha-del-1000-md {
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms; }
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms; }
   .ha-delay-xxxl-md,
   .ha-del-xxxl-md,
   .ha-delay-1500-md,
   .ha-del-1500-md {
-    -webkit-animation-duration: 1500ms;
-            animation-duration: 1500ms; }
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 1500ms; }
   .ha-delay-xxxxl-md,
   .ha-del-xxxxl-md,
   .ha-delay-2000-md,
   .ha-del-2000-md {
-    -webkit-animation-duration: 2000ms;
-            animation-duration: 2000ms; } }
+    -webkit-animation-delay: 2000ms;
+            animation-delay: 2000ms; } }
 
 @media (min-width: 1200px) {
   .ha-delay-xxxs-lg,
   .ha-del-xxxs-lg,
   .ha-delay-20-lg,
   .ha-del-20-lg {
-    -webkit-animation-duration: 20ms;
-            animation-duration: 20ms; }
+    -webkit-animation-delay: 20ms;
+            animation-delay: 20ms; }
   .ha-delay-xxs-lg,
   .ha-del-xxs-lg,
   .ha-delay-50-lg,
   .ha-del-50-lg {
-    -webkit-animation-duration: 50ms;
-            animation-duration: 50ms; }
+    -webkit-animation-delay: 50ms;
+            animation-delay: 50ms; }
   .ha-delay-xs-lg,
   .ha-del-xs-lg,
   .ha-delay-100-lg,
   .ha-del-100-lg {
-    -webkit-animation-duration: 100ms;
-            animation-duration: 100ms; }
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms; }
   .ha-delay-sm-lg,
   .ha-del-sm-lg,
   .ha-delay-200-lg,
   .ha-del-200-lg {
-    -webkit-animation-duration: 200ms;
-            animation-duration: 200ms; }
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms; }
   .ha-delay-md-lg,
   .ha-del-md-lg,
   .ha-delay-300-lg,
   .ha-del-300-lg {
-    -webkit-animation-duration: 300ms;
-            animation-duration: 300ms; }
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms; }
   .ha-delay-lg-lg,
   .ha-del-lg-lg,
   .ha-delay-500-lg,
   .ha-del-500-lg {
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms; }
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms; }
   .ha-delay-xl-lg,
   .ha-del-xl-lg,
   .ha-delay-750-lg,
   .ha-del-750-lg {
-    -webkit-animation-duration: 750ms;
-            animation-duration: 750ms; }
+    -webkit-animation-delay: 750ms;
+            animation-delay: 750ms; }
   .ha-delay-xxl-lg,
   .ha-del-xxl-lg,
   .ha-delay-1000-lg,
   .ha-del-1000-lg {
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms; }
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms; }
   .ha-delay-xxxl-lg,
   .ha-del-xxxl-lg,
   .ha-delay-1500-lg,
   .ha-del-1500-lg {
-    -webkit-animation-duration: 1500ms;
-            animation-duration: 1500ms; }
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 1500ms; }
   .ha-delay-xxxxl-lg,
   .ha-del-xxxxl-lg,
   .ha-delay-2000-lg,
   .ha-del-2000-lg {
-    -webkit-animation-duration: 2000ms;
-            animation-duration: 2000ms; } }
+    -webkit-animation-delay: 2000ms;
+            animation-delay: 2000ms; } }
 
 @media (min-width: 1600px) {
   .ha-delay-xxxs-xl,
   .ha-del-xxxs-xl,
   .ha-delay-20-xl,
   .ha-del-20-xl {
-    -webkit-animation-duration: 20ms;
-            animation-duration: 20ms; }
+    -webkit-animation-delay: 20ms;
+            animation-delay: 20ms; }
   .ha-delay-xxs-xl,
   .ha-del-xxs-xl,
   .ha-delay-50-xl,
   .ha-del-50-xl {
-    -webkit-animation-duration: 50ms;
-            animation-duration: 50ms; }
+    -webkit-animation-delay: 50ms;
+            animation-delay: 50ms; }
   .ha-delay-xs-xl,
   .ha-del-xs-xl,
   .ha-delay-100-xl,
   .ha-del-100-xl {
-    -webkit-animation-duration: 100ms;
-            animation-duration: 100ms; }
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms; }
   .ha-delay-sm-xl,
   .ha-del-sm-xl,
   .ha-delay-200-xl,
   .ha-del-200-xl {
-    -webkit-animation-duration: 200ms;
-            animation-duration: 200ms; }
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms; }
   .ha-delay-md-xl,
   .ha-del-md-xl,
   .ha-delay-300-xl,
   .ha-del-300-xl {
-    -webkit-animation-duration: 300ms;
-            animation-duration: 300ms; }
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms; }
   .ha-delay-lg-xl,
   .ha-del-lg-xl,
   .ha-delay-500-xl,
   .ha-del-500-xl {
-    -webkit-animation-duration: 500ms;
-            animation-duration: 500ms; }
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms; }
   .ha-delay-xl-xl,
   .ha-del-xl-xl,
   .ha-delay-750-xl,
   .ha-del-750-xl {
-    -webkit-animation-duration: 750ms;
-            animation-duration: 750ms; }
+    -webkit-animation-delay: 750ms;
+            animation-delay: 750ms; }
   .ha-delay-xxl-xl,
   .ha-del-xxl-xl,
   .ha-delay-1000-xl,
   .ha-del-1000-xl {
-    -webkit-animation-duration: 1000ms;
-            animation-duration: 1000ms; }
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms; }
   .ha-delay-xxxl-xl,
   .ha-del-xxxl-xl,
   .ha-delay-1500-xl,
   .ha-del-1500-xl {
-    -webkit-animation-duration: 1500ms;
-            animation-duration: 1500ms; }
+    -webkit-animation-delay: 1500ms;
+            animation-delay: 1500ms; }
   .ha-delay-xxxxl-xl,
   .ha-del-xxxxl-xl,
   .ha-delay-2000-xl,
   .ha-del-2000-xl {
-    -webkit-animation-duration: 2000ms;
-            animation-duration: 2000ms; } }
+    -webkit-animation-delay: 2000ms;
+            animation-delay: 2000ms; } }
 
 /* Iteration Count */
 .ha-iteration-infinite,
